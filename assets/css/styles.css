@@ -1,0 +1,36 @@
+* {
+  font-family: "Annapurna SIL", serif;
+}
+
+h1 {
+  text-align: center;
+
+  font-weight: 700 !important;
+  text-decoration: underline;
+}
+
+.card img {
+  width: 100%;
+}
+.card-title {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 700 !important;
+}
+.card-text {
+  font-size: 0.9rem;
+  text-align: start;
+}
+.card-text-titulos {
+  font-weight: 700;
+}
+.card-text-contenido {
+  background-color: #eee;
+}
+#user-data {
+  display: none;
+}
