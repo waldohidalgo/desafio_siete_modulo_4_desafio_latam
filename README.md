@@ -22,4 +22,6 @@ Dicho patrón de módulo lo ejecuto al cargar la página. El patrón de modulo l
 
 ### 2.Programar la petición a la API usando async - await y mostrar el resultado en html utilizando etiquetas del tipo párrafo una bajo la otra
 
+![Código Mostrar Data](./assets/img/code-insertar_mostrar_data.png)
+
 Para mostrar data de la API en el HTML he utilizado bootstrap 5, especificamente, el componente card. Para lo anterior he creado 3 funciones: **insertData**, **detectarCargaImagenes** y **toggleLoader**. La función **insertData** inserta la data en el HTML pero aún no es mostrada en pantalla. La función **detectarCargaImagenes** detecta cuando se han cargado **TODAS** las imagenes y cuando aquello se ha realizado entonces se muestra la data de la API llamando a la función **toggleLoader**. Esta última función no muestra el loader y muestra las cards con la data de la API que se desea mostrar.
